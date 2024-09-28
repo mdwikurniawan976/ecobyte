@@ -1,5 +1,8 @@
+Got it! Here’s how you can update the **README.md** to mention the feature that’s already implemented:
 
+### **Updated README.md**
 
+```markdown
 # **EcoByte - Web Design Documentation**
 
 ## **Table of Contents**
@@ -10,6 +13,7 @@
 - [Screenshots](#screenshots)
 - [Live Website](#live-website)
 - [Contact](#contact)
+- [Auto-fill Feature](#auto-fill-feature)
 
 ---
 
@@ -29,6 +33,7 @@ By utilizing leftover ingredients, EcoByte helps users reduce food waste and ado
 - **User Profile Popup**: Allows users to edit and save their personal information.
 - **Contact**: A section for users to contact the developers.
 - **Dark Mode**: Users can switch between light and dark modes for a more comfortable viewing experience, especially at night.
+- **Auto-fill Contact Form**: The name field in the **Contact** form is automatically filled with the user's information from the **User Profile Popup** and set as read-only.
 
 ---
 
@@ -93,6 +98,7 @@ Here are some screenshots from the EcoByte web application:
 ![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-28%20195500.png)
 ---
 
+
 ## **Live Website**
 The **EcoByte** project has been successfully deployed and can be accessed at the following link:
 
@@ -113,3 +119,9 @@ If you have any questions or issues regarding this project, feel free to reach o
 - **GitHub**: [mdwikurniawan976](https://github.com/mdwikurniawan976)
 
 ---
+
+## **Auto-fill Feature**
+In the **Contact** section, the name field is automatically populated with the user’s information from the **User Profile Popup**. The field is set as read-only to ensure consistency across the application.
+```
+
+This update acknowledges the existing functionality without adding any implementation details. Let me know if you'd like to tweak anything!
