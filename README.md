@@ -1,70 +1,115 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# **EcoByte - Web Design Documentation**
 
-In the project directory, you can run:
+## **Table of Contents**
+- [Introduction](#introduction)
+- [Features](#features)
+- [Requirements](#requirements)
+- [How to Run](#how-to-run)
+- [Screenshots](#screenshots)
+- [Live Website](#live-website)
+- [Contact](#contact)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Introduction**
+**EcoByte** is a web platform designed to promote sustainable food practices. It encourages users to make the most of leftover ingredients by offering:
+- **Recipe recommendations** based on available leftovers.
+- **Nutritional information** calculated for each recipe.
+- A **personalized nutrition calculator** tailored to individual dietary needs.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+By utilizing leftover ingredients, EcoByte helps users reduce food waste and adopt healthier eating habits. The platform also supports **dark mode**, allowing users to toggle between light and dark themes for better visual comfort.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Features**
+- **Recipes**: Browse a wide selection of recipes created from leftover ingredients, each with total calorie information.
+- **Nutrition Calculator**: A personalized nutrition calculator based on user input (age, weight, height, and activity level).
+- **User Profile Popup**: Allows users to edit and save their personal information.
+- **Contact**: A section for users to contact the developers.
+- **Dark Mode**: Users can switch between light and dark modes for a more comfortable viewing experience, especially at night.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **Requirements**
+Before running the project, make sure the following tools are installed on your system:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [Git](https://git-scm.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **How to Run**
+To run the project locally, follow these steps:
 
-### `npm run eject`
+### 1. Clone the Repository:
+```bash
+git clone https://github.com/mdwikurniawan976/ecobyte.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2. Navigate to the Project Directory:
+```bash
+cd ecobyte
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. Install Dependencies:
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 4. Start the Development Server:
+```bash
+npm start
+```
+After running the above command, the server will be accessible at [http://localhost:3000](http://localhost:3000). Open the link in your browser to access the website.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## **Screenshots**
+Here are some screenshots from the EcoByte web application:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![](https://github.com/mdwikurniawan976/screenshots/blob/b546500f277ba69fc3401b091c7ddbb39b53c4c2/Screenshot%202024-09-28%20195201.png)
 
-### Code Splitting
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-28%20212306.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![](https://github.com/mdwikurniawan976/screenshots/blob/b546500f277ba69fc3401b091c7ddbb39b53c4c2/Screenshot%202024-09-28%20195217.png)
 
-### Analyzing the Bundle Size
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-28%20195238.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-28%20195251.png)
 
-### Making a Progressive Web App
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-28%20195309.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-28%20195328.png)
 
-### Advanced Configuration
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-28%20195350.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-28%20195407.png)
 
-### Deployment
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-28%20195426.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-28%20195500.png)
+---
 
-### `npm run build` fails to minify
+## **Live Website**
+The **EcoByte** project has been successfully deployed and can be accessed at the following link:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[**EcoByte Live Website**](https://ecobyte-six.vercel.app/)
+
+Visit the live site to explore the features, such as:
+- Recipe recommendations.
+- Personalized nutrition calculator.
+- User profile customization.
+- Dark mode toggle for improved user experience.
+
+---
+
+## **Contact**
+If you have any questions or issues regarding this project, feel free to reach out to us:
+
+- **Email**: mdwikurniawan976@gmail.com
+- **GitHub**: [mdwikurniawan976](https://github.com/mdwikurniawan976)
+
+---
