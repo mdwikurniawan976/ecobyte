@@ -1,8 +1,6 @@
-Got it! Here’s how you can update the **README.md** to mention the feature that’s already implemented:
 
 ### **Updated README.md**
 
-```markdown
 # **EcoByte - Web Design Documentation**
 
 ## **Table of Contents**
