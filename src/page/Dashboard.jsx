@@ -43,7 +43,7 @@ const Dashboard = () => {
 
   return (
     //style={{ maxWidth: '100vw' }}
-    <div style={{ margin: '0', padding: '0' }} className='position-relative'>
+    <div style={{ margin: '0', padding: '0' , maxWidth: '100%', overflowX:'hidden'}} className='position-relative'>
       <Navbar setState={setshowModal} />
       <Jumbotron setState={setshowModal} />
       {/* <Team /> */}
