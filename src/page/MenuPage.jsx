@@ -28,14 +28,23 @@ const MenuPage = () => {
         <h2 className="text-center mb-4">Waste-Free Meals with Calorie Breakdown</h2>
  
         <div className="row d-flex justify-content-center mb-5">
-          <Button className="col-3 col-md-1 mx-1" style={{ backgroundColor: '#fa8c16', borderColor: '#fa8c16', color: '#fff' }}>
-            All
-          </Button>
-          <Button className="col-3 col-md-1 mx-1 grey-button" type="default">Vegetarian</Button>
-          <Button className="col-3 col-md-1 mx-1 grey-button" type="default">Vegan</Button>
-          <Button className="col-3 col-md-1 mx-1 grey-button  type="default">Gluten-Free</Button>
-          <Button className="col-3 col-md-1 mx-1 grey-button type="default">Desserts</Button>
-        </div>
+        <Button className="col-3 col-md-1 mx-1" style={{ backgroundColor: '#fa8c16', borderColor: '#fa8c16', color: '#fff' }}>
+          All
+        </Button>
+        <Button className="col-3 col-md-1 mx-1 grey-button" type="default">
+          Vegetarian
+        </Button>
+        <Button className="col-3 col-md-1 mx-1 grey-button" type="default">
+          Vegan
+        </Button>
+        <Button className="col-3 col-md-1 mx-1 grey-button mt-3 mt-md-0" type="default">
+          Gluten-Free
+        </Button>
+        <Button className="col-3 col-md-1 mx-1 grey-button mt-3 mt-md-0" type="default">
+          Desserts
+        </Button>
+      </div>
+
  
         <div className="row mt-4 d-flex justify-content-center">
           {loading ? (
