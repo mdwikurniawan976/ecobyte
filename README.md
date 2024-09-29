@@ -36,12 +36,12 @@ The recipe page images are sourced from the following external links:
 - [Kue-kue](https://www.pexels.com/id-id/foto/kue-kue-47812/)
 
 ---
-
 ## **Introduction**
 **EcoByte** is a web platform designed to promote sustainable food practices. It encourages users to make the most of leftover ingredients by offering:
 - **Recipe recommendations** based on available leftovers.
 - **Nutritional information** calculated for each recipe.
 - A **personalized nutrition calculator** tailored to individual dietary needs.
+- A feature that adjusts recipe ingredients automatically based on user input and calculates the corresponding calorie count.
 
 By utilizing leftover ingredients, EcoByte helps users reduce food waste and adopt healthier eating habits. The platform also supports **dark mode**, allowing users to toggle between light and dark themes for better visual comfort.
 
@@ -49,6 +49,7 @@ By utilizing leftover ingredients, EcoByte helps users reduce food waste and ado
 
 ## **Features**
 - **Recipes**: Browse a wide selection of recipes created from leftover ingredients, each with total calorie information.
+- **Ingredient Adjustment**: When selecting a recipe, users can see the required ingredients. The quantities are automatically adjusted based on the portion size they want to prepare, and the calorie count is updated accordingly.
 - **Nutrition Calculator**: A personalized nutrition calculator based on user input (age, weight, height, and activity level).
 - **User Profile Popup**: Allows users to edit and save their personal information.
 - **Contact**: A section for users to contact the developers.
@@ -56,6 +57,7 @@ By utilizing leftover ingredients, EcoByte helps users reduce food waste and ado
 - **Auto-fill Contact Form**: The name field in the **Contact** form is automatically filled with the user's information from the **User Profile Popup** and set as read-only.
 
 ---
+
 
 ## **Requirements**
 Before running the project, make sure the following tools are installed on your system:
