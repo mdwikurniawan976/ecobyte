@@ -1,9 +1,5 @@
-
-### **Updated README.md**
-
-# **EcoByte - Web Design Documentation**
-
 ## **Table of Contents**
+- [Source Assets](#source-assets)
 - [Introduction](#introduction)
 - [Features](#features)
 - [Requirements](#requirements)
@@ -12,6 +8,32 @@
 - [Live Website](#live-website)
 - [Contact](#contact)
 - [Auto-fill Feature](#auto-fill-feature)
+
+---
+
+## **Source Assets**
+The recipe page images are sourced from the following external links:
+
+- [Nasi Goreng Matang di Panci](https://www.pexels.com/id-id/foto/nasi-goreng-matang-di-panci-6937455/)
+- [Fried Rice Search](https://www.pexels.com/id-id/pencarian/fried%20rice/)
+- [Vegetable Pasta Search](https://www.pexels.com/id-id/pencarian/Vegetable%20Pasta/)
+- [Roti Segar Botol](https://www.pexels.com/id-id/foto/roti-segar-botol-pandangan-atas-8601410/)
+- [Roti Sup Budaya](https://www.pexels.com/id-id/foto/roti-sup-budaya-kultur-8601386/)
+- [Sarapan Lezat di Atas Meja Kayu](https://www.pexels.com/id-id/foto/sarapan-lezat-disajikan-di-atas-meja-kayu-5591699/)
+- [Mug Keramik Putih dengan Kopi](https://www.pexels.com/id-id/foto/orang-memegang-mug-keramik-putih-dengan-kopi-5720780/)
+- [Kayu Sendok Hidangan](https://www.pexels.com/id-id/foto/kayu-sendok-hidangan-meja-4099238/)
+- [Pancakes Search](https://www.pexels.com/id-id/pencarian/Pancakes/)
+- [Makanan dalam Panci Masak](https://www.pexels.com/id-id/foto/makanan-dimasak-dalam-panci-masak-black-metal-878014/)
+- [Tumis Kacang Manis](https://www.pexels.com/id-id/foto/tumis-kacang-manis-3298693/)
+- [Korean Rice Ball Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcookpad.com%2Fid%2Fresep%2F212798-korean-rice-ball)
+- [Tumis Kacang dengan Daging Babi](https://www.pexels.com/id-id/foto/tumis-kacang-dengan-daging-babi-724298/)
+- [Korean Rice Ball Jumeokbap](https://www.google.com/url?sa=i&url=https%3A%2F%2Fyejiskitchenstories.com%2Fkorean-rice-balls-jumeokbap%2F)
+- [Rice Balls Recipe](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcookwithamber.com%2Frice-balls%2F)
+- [Salad Sayuran di Piring](https://www.pexels.com/id-id/foto/salad-sayuran-di-piring-1059905/)
+- [Fotografi Salad](https://www.pexels.com/id-id/foto/fotografi-salad-dari-dekat-806361/)
+- [Salad Sayuran Piring Putih](https://www.pexels.com/id-id/foto/salad-sayuran-di-piring-keramik-putih-1211887/)
+- [Makanan Tangan Bluberi](https://www.pexels.com/id-id/foto/makanan-tangan-bluberi-pencuci-mulut-5702852/)
+- [Kue-kue](https://www.pexels.com/id-id/foto/kue-kue-47812/)
 
 ---
 
