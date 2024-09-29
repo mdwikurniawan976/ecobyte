@@ -108,6 +108,12 @@ Visit the live site to explore the features, such as:
 - User profile customization.
 - Dark mode toggle for improved user experience.
 
+
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-29%20072759.png)
+
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-29%20072849.png)
+
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-29%20072902.png)
 ---
 
 ## **Contact**
