@@ -28,7 +28,18 @@ export const FoodData = [
         kalVallue: ["400", "240", "45", "10", "10", "60", "140", "30"],
         link: './images/food2.png',
         kal: '940',
-        image: ['/images/recipe/friedRice1.jpg','/images/recipe/friedRice2.jpg','/images/recipe/friedRice3.jpg']
+       image: ['/images/recipe/friedRice1.jpg','/images/recipe/friedRice2.jpg','/images/recipe/friedRice3.jpg'],
+        htc: [
+            "Heat 2 tablespoons of oil in a large skillet over medium heat.",
+            "Add chopped onion and minced garlic. Cook until fragrant and golden brown.",
+            "Stir in diced carrots (if using) and cook until softened.",
+            "Add frozen peas (or other vegetables) and cook for 2 minutes.",
+            "Move the vegetables to the side of the pan and crack the eggs into the empty space. Scramble them until fully cooked.",
+            "Add the day-old cooked rice and soy sauce. Stir well to combine everything evenly.",
+            "Season with salt and pepper to taste. Cook for another 5-7 minutes, stirring occasionally.",
+            "Garnish with chopped green onions or herbs before serving."
+        ]
+     
     },
     {
         id: 3,
