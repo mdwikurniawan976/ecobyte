@@ -48,8 +48,8 @@ By utilizing leftover ingredients, EcoByte helps users reduce food waste and ado
 ---
 
 ## **Features**
-- **Recipes**: Browse a wide selection of recipes created from leftover ingredients, each with total calorie information.
-- **Ingredient Adjustment**: When selecting a recipe, users can see the required ingredients. The quantities are automatically adjusted based on the portion size they want to prepare, and the calorie count is updated accordingly.
+- **Recipes**: Browse a wide selection of recipes created from leftover ingredients. Each recipe includes total calorie information for easy nutritional tracking.
+- **Ingredient Adjustment**: When selecting a recipe, users can see the required ingredients. The quantities are automatically adjusted based on the portion size they want to prepare, and the total calorie count is updated accordingly.
 - **Nutrition Calculator**: A personalized nutrition calculator based on user input (age, weight, height, and activity level).
 - **User Profile Popup**: Allows users to edit and save their personal information.
 - **Contact**: A section for users to contact the developers.
@@ -141,11 +141,13 @@ Visit the live site to explore the features, such as:
 - Dark mode toggle for improved user experience.
 
 
-![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-29%20072759.png)
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-29%20192310.png)
 
-![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-29%20072849.png)
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-29%20192317.png)
 
 ![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-29%20072902.png)
+
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-29%20192251.png)
 ---
 
 ## **Contact**
