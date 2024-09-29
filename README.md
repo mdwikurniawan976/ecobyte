@@ -122,6 +122,10 @@ Here are some screenshots from the EcoByte web application:
 ![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-29%20173104.png)
 
 ![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-29%20173315.png)
+
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-29%20191006.png)
+
+![](https://github.com/mdwikurniawan976/screenshots/blob/main/Screenshot%202024-09-29%20191058.png)
 ---
 
 
