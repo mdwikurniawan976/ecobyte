@@ -44,7 +44,7 @@ const Konten2 = () => {
                             <div className="card-body">
                                 <p className="text-success mb-0">EcoByte's</p>
                                 <p className="card-text fw-bold">Healthy Breakfast Menu</p>
-                                <a onClick={()=>nav('/recipe')} className='cardKonten2a cursor-pointer'>Learn More 	&#8594;</a>
+                                <a onClick={()=>nav("/recipe?filter=breakfast")} className='cardKonten2a cursor-pointer'>Learn More 	&#8594;</a>
                             </div>
                         </div>
                     </div>

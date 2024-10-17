@@ -7,7 +7,7 @@ const About1 = () => {
                 <div className="py-3"></div>
                 <div className="row">
                     <div className="col-sm-12 col-md-6 align-self-center" data-aos='fade-right'>
-                        <p className="text-success">Description</p>
+                        <p className="text-success">About Us</p>
                         <h3 className='mb-4'>Innovative Platform Merging Technology and Sustainability to Reduce Food Waste</h3>
                         <p>Ecobyte is a forward-thinking platform that merges technology with sustainability, focusing on reducing food waste. It provides practical solutions for managing leftovers, including tips on food storage and creative recipes, empowering users to make the most of their food and minimize waste.</p>
                     </div>

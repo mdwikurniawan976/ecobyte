@@ -5,6 +5,7 @@ import NotFound from "../page/NotFound";
 import ContactPage from "../page/ContactPage";
 import MenuPage from "../page/MenuPage";
 import NutritionCalculator from "../page/NutritionCalculator";
+import CreateRecipe from "../page/CreateRecipe";
 
 export const RouterList = createBrowserRouter([
     {
@@ -23,6 +24,11 @@ export const RouterList = createBrowserRouter([
     {
         path: '/recipe/:id',
         element: <RecipePage />
+
+    },
+    {
+        path: '/recipe/create',
+        element: <CreateRecipe />
 
     },
     {

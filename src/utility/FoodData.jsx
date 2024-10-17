@@ -2,6 +2,7 @@ export const FoodData = [
 
     {
         id: 2,
+        category: ['breakfast'],
         name: 'Fried Rice',
         description: 'Transform leftover rice into a delicious fried rice delight, packed with veggies and simple spices!',
         ingredients: [
@@ -43,6 +44,7 @@ export const FoodData = [
     },
     {
         id: 3,
+        category: ['breakfast','vegetable'],
         name: 'Vegetable Pasta',
         description: 'Pasta mixed with leftover vegetables and a simple tomato sauce for a quick meal.',
         ingredients: ["cups of cooked pasta (penne, spaghetti, or any type)",
@@ -82,6 +84,7 @@ export const FoodData = [
     },
     {
         id: 4,
+        category: ['breakfast','vegetable'],
         name: 'Vegetable Soup',
         description: 'A warm and comforting soup made from leftover vegetables and broth.',
         ingredients: [
@@ -125,7 +128,8 @@ export const FoodData = [
     },
     {
         id: 5,
-        name: 'Toast',
+        category: ['breakfast'],
+        name: 'Toast Bread',
         description: 'Toasted bread topped with leftover spreads and fresh fruits.',
         ingredients: [
             "slices of bread (whole wheat or any type)",
@@ -164,6 +168,7 @@ export const FoodData = [
     },
     {
         id: 6,
+        category: ['desert'],
         name: 'Fruit Smoothie',
         description: 'A refreshing smoothie made with leftover fruits and yogurt for a healthy treat.',
         ingredients: [
@@ -199,6 +204,7 @@ export const FoodData = [
     },
     {
         id: 7,
+        category: ['breakfast','desert'],
         name: 'Pancakes',
         description: 'Fluffy pancakes made with leftover ingredients, perfect for breakfast.',
         ingredients: [
@@ -233,6 +239,7 @@ export const FoodData = [
     },
     {
         id: 8,
+        category: ['breakfast','vegetable'],
         name: 'Stir-Fried Vegetables',
         description: 'A quick stir-fry featuring various leftover vegetables and a flavorful sauce.',
         ingredients: [
@@ -270,116 +277,244 @@ export const FoodData = [
         kal: '550',
         image: ['/images/recipe/stirFriedVegetables1.jpg']
     },
-    // {
-    //     id: 9,
-    //     name: 'Rice Balls',
-    //     description: 'Savory snacks made from leftover rice, shaped into balls and fried until golden.',
-    //     ingredients: [
-    //         "cups leftover rice (preferably day-old)",
-    //         "tablespoon soy sauce",
-    //         "cup leftover vegetables, chopped (optional)",
-    //         "egg (optional, for binding)",
-    //         "tablespoon sesame oil (for frying)",
-    //         "Seaweed or sesame seeds for coating (optional)"
-    //     ],
-    //     ingredientsValue: [
-    //         "2",
-    //         "1",
-    //         "0.5",
-    //         "1",
-    //         "1",
+    {
+        id: 9,
+        category: ['desert'],
+        name: 'Oven Bread Pudding',
+        description: "A delicious and simple dessert made with leftover bread, milk, eggs, and sweet toppings. Baked to golden perfection, it's perfect for a warm, comforting treat!",
+        ingredients: [
+            "unused or unconsumed slices of bread",
+            "ml liquid milk ",
+            "grams granulated sugar",
+            "eggs",
+            "teaspoon ground cinnamon ",
+            "teaspoon salt",
+            "grams raisins",
+            "grams sliced ​​almonds",
+        ],
+        ingredientsValue: [
+            "8",
+            "250",
+            "100",
+            "3",
+            "1",
+            "1",
+            "100",
+            "100",
             
-    //     ],
-    //     kalVallue: [
-    //         "400",
-    //         "10",
-    //         "50",
-    //         "70",
-    //         "120",
-    //         "10"
-    //     ],
-    //     htc : [
-    //         "In a bowl, mix leftover rice with soy sauce and chopped vegetables.",
-    //         "If using, add an egg to bind the mixture.",
-    //         "Shape the mixture into small balls.",
-    //         "Heat sesame oil in a skillet and fry the rice balls until golden brown.",
-    //         "Serve with seaweed or sprinkle with sesame seeds if desired."
-    //     ],
-    //     link: './images/food9.png',
-    //     kal: '550',
-    //     image: './images/about.png'
-    // },
-    // {
-    //     id: 10,
-    //     name: 'Salad',
-    //     description: 'A vibrant salad combining leftover vegetables with a light dressing.',
-    //     ingredients: [
-    //         "cups leftover vegetables (lettuce, tomatoes, cucumbers, etc.)",
-    //         "tablespoon olive oil",
-    //         "tablespoon vinegar or lemon juice",
-    //         "cup leftover protein (chicken, tofu, beans, etc.)",
-    //         "tablespoon nuts or seeds (optional)",
-    //         "Salt and pepper to taste"
-    //     ],
-    //     ingredientsValue: [
-    //         "2",
-    //         "1",
-    //         "1",
-    //         "0.5",
-    //         "1",
+        ],
+        kalVallue: [
+            "640",
+            "155",
+            "387",
+            "210",
+            "7",
+            "0",
+            "299",
+            "223",
+        ],  
+        htc : [
+            "Preheat the oven to 180°C (350°F).",
+            "Prepare a baking dish by greasing it lightly with butter or oil to prevent sticking.",
+            "In a large bowl, mix together milk, sugar, eggs, cinnamon, and salt. Stir until well combined.",
+            "Add the bread cubes into the milk mixture, making sure the bread is fully soaked. Let it sit for 10-15 minutes to absorb the liquid.",
+            "Once the bread has absorbed the mixture, gently stir in the raisins and sliced almonds.",
+            "Pour the mixture into the prepared baking dish.",
+            "Bake for 30-40 minutes, or until the top is golden brown and the pudding is set.",
+            "Once done, remove from the oven and let it cool slitly before serving.",
+            "Enjoy your Oven Bread Pudding!",
+        ],      
+        link: './images/food8.png',
+        kal: '1921',
+        image: ['/images/recipe/breadpuding1.webp']
+    },
+    {
+        id: 10,
+        category: ['snack'],
+        name: 'Soft and Crispy Rice Cireng',
+        description: 'A savory snack made from leftover rice and tapioca flour, fried until crispy on the outside and soft on the inside. Perfect for a light, flavorful bite!',
+        ingredients: [
+            "grams of cooked rice",
+            "tablespoon tapioca flour",
+            "stalks of scallions, thinly sliced",
+            "teaspoon garlic powder",
+            "tablespoon salt",
+            "teaspoon ground pepper",
+           
+        ],
+        ingredientsValue: [
+            "200",
+            "12",
+            "2",
+            "2",
+            "0.5",
+            "0.5",
+           
             
-    //     ],
-    //     kalVallue: [
-    //         "50",
-    //         "120",
-    //         "5",
-    //         "100",
-    //         "50",
-    //         "0"
-    //     ],        
-    //     htc : [
-    //         "In a large bowl, combine leftover vegetables and protein.",
-    //         "Drizzle with olive oil and vinegar or lemon juice.",
-    //         "Toss gently to mix all ingredients.",
-    //         "Top with nuts or seeds if desired, and season with salt and pepper."
-    //     ],
-    //     link: './images/food10.png',
-    //     kal: '550',
-    //     image: './images/about.png'
-    // },
-    // {
-    //     id: 11,
-    //     name: 'Cake',
-    //     description: 'A delightful cake made with leftover flour and sugar, perfect for dessert.',
-    //     ingredients: [
-    //         "slices of leftover cake",
-    //         "tablespoon frosting (optional)",
-    //         "cup fresh fruits (berries, bananas, etc., optional)",
-    //         "whipped cream or ice cream (optional)"
-    //     ],
-    //     ingredientsValue: [
-    //         "2",
-    //         "1",
-    //         "1",
-    //         "1"
-    //     ],
-    //     kalVallue: [
-    //         "200", // Average for 2 slices of cake
-    //         "50",  // Average for frosting
-    //         "50",  // Fresh fruits
-    //         "100"  // Whipped cream or ice cream
-    //     ],
-        
-    //     htc : [
-    //         "Take slices of leftover cake and place them on a serving plate.",
-    //         "If desired, spread frosting on top of each slice.",
-    //         "Add fresh fruits on the side or on top of the cake slices.",
-    //         "Serve with whipped cream or a scoop of ice cream if desired."
-    //     ],
-    //     link: './images/food11.png',
-    //     kal: '550',
-    //     image: './images/about.png'
-    // },
+        ],
+        kalVallue: [
+            "100",
+            "120",
+            "10",
+            "20",
+            "40",
+            "5"
+        ],  
+        htc : [
+            "Sprinkle the rice with a little water, just enough to moisten it, and let it sit until the rice slightly expands.",
+            "Blend the rice until it becomes somewhat smooth, then transfer it to a bowl.",
+            "Add the tapioca flour, salt, garlic powder, ground pepper, and scallions, then mix until well combined.",
+            "Add the tapioca flour, salt, garlic powder, ground pepper, and scallions, then mix until well combined.",
+            "Shape the dough into small circles, dusting your hands with tapioca flour. Repeat until all the dough is shaped.",
+            "Fry the cireng until it turns white and the outer layer becomes slightly hard and crispy.",
+            "Remove from oil and drain.",
+            "Enjoy with a sprinkle of chili powder or dipping sauce. Happy cooking!",
+        ],      
+        link: './images/food8.png',
+        kal: '650',
+        image: ['/images/recipe/cirengkacang1.webp']
+    },
+    {
+        id: 11,
+        category: ['snack'],
+        name: 'Puli Crackers',
+        description: "Crispy and crunchy crackers made from leftover rice and tapioca flour, dried and fried to perfection. A tasty, zero-waste snack that's light and delicious!",
+        ingredients: [
+            "plates of leftover rice (not spoiled)",
+            "bsp tapioca flour",
+            "cloves of garlic",
+            "tsp coriander seeds",
+            "tablespoon salt",
+            "tsp stock powder",
+            "Water as needed",
+           
+        ],
+        ingredientsValue: [
+            "3",
+            "4",
+            "4",
+            "2",
+            "2",
+            "1",
+           
+            
+        ],
+        kalVallue: [
+            "780",
+            "142",
+            "18",
+            "12",
+            "0",
+            "2.5"
+        ],  
+        htc : [
+            "Rinse the rice until the starch is removed.",
+            "Steam the rice for about 15 minutes, then remove from heat.",
+            "While still warm, mash the rice using a mortar and pestle until smooth.",
+            "Grind the garlic, coriander, and salt until smooth.",
+            "Mix the mashed rice, tapioca flour, and the ground spices together. Stir until well combined.",
+            "Gradually add the stock powder and water, ensuring the dough is not too soft.",
+            "Steam the rice mixture for about 10 minutes, then remove from heat.",
+            "Take a portion of the dough, flatten it with a rolling pin.",
+            "Sun-dry the flattened dough for two days under hot sunlight.",
+            "Once dried, the crackers are ready to be fried.",
+        ],      
+        link: './images/food8.png',
+        kal: '954.5 ',
+        image: ['/images/recipe/krupukpuli1.jpg']
+    },
+    {
+        id: 12,
+        category: ['desert','breakfast'],
+        name: 'Mango Smoothie Bowl',
+        description: 'A creamy, refreshing smoothie bowl made with frozen mango and topped with fresh fruits and crunchy toppings. Perfect for a healthy and delicious breakfast!',
+        ingredients: [
+            "ripe mangoes (Harum Manis or Indramayu variety), frozen",
+            "tablespoons Greek Yogurt",
+            "Chia seeds, granola, bananas, strawberries, pistachios (as desired)",
+            
+           
+        ],
+        ingredientsValue: [
+            "2",
+            "4",
+           
+           
+            
+        ],
+        kalVallue: [
+            "240",
+            "65",
+            "120",
+            
+        ],  
+        htc : [
+            "Blend the frozen mango pieces and Greek yogurt until smooth.",
+            "Pour into a bowl.",
+            "Slice bananas and strawberries as desired.",
+            "Add the banana slices, strawberries, and granola on top of the blended mango.",
+            "Add additional toppings like chia seeds, granola, or pistachios for crunch as desired.",
+            
+        ],      
+        link: './images/food8.png',
+        kal: '665',
+        image: ['/images/recipe/mangosmootiebowl1.jpeg']
+    },
+    {
+        id: 13,
+        category: ['breakfast'],
+        name: 'Avocado Toast with Eggs',
+        description: 'Mashed avocado on gluten-free toast, topped with cherry tomatoes, olive oil, and a sprinkle of salt and pepper.',
+        ingredients: [
+            "pieces gluten-free bread (Canyon Bakehouse, ~60g)",
+            "gr ripe avocado",
+            "eggs",
+            "tablespoon coconut oil",
+            "tablespoon Trader Joe's Everything But the Bagel Seasoning",
+            "Hot sauce or Tabasco (optional)",
+            "Salt & pepper",
+            
+            
+           
+        ],
+        ingredientsValue: [
+            "2",
+            "70",
+            "2",
+            "1",
+            "1",
+           
+           
+            
+        ],
+        kalVallue: [
+            "160",
+            "115",
+            "140",
+            "120",
+            "5",
+            "5",
+            "0",
+            
+            
+        ],  
+        htc : [
+            "Heat 1 tablespoon coconut oil in a frying pan over medium heat.",
+            "When the oil is hot, add the 2 eggs.",
+            "Season lightly with salt and pepper.",
+            "Set bread to toast so both items are done cooking around the same time.",
+            "Fry eggs to desired doneness (I like mine over-hard).",
+            "Remove toast to a plate.",
+            "Spread mashed avocado on both pieces of toast, then top with one egg on each.",
+            "Sprinkle Everything But The Bagel Seasoning on top of everything.",
+            "Dash a little hot sauce if you want extra kick. Enjoy!",
+            
+        ],      
+        link: ['https://www.thenomadicfitzpatricks.com/wp-content/uploads/2021/05/IMG_8023.jpg','https://images.pexels.com/photos/7936658/pexels-photo-7936658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'],
+        kal: '610',
+        image: ['/images/recipe/avocadotoast1.jpeg','/images/recipe/avocadotoast2.jpeg']
+    },
+  
 
 ]
 

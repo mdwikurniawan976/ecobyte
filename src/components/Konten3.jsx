@@ -1,7 +1,10 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 
-const Konten3 = ({subtitle, title, description, style, imgSrc, imgUrl, delay}) => {
+const Konten3 = ({subtitle, title, description, style, imgSrc, imgUrl, delay, link}) => {
+    const nav = useNavigate();
+    link = link === undefined ? '/' : link
   return (
     <div>
         <div className="container py-3" style={style}>
@@ -13,7 +16,7 @@ const Konten3 = ({subtitle, title, description, style, imgSrc, imgUrl, delay}) =
                     <p className="text-success">{subtitle}</p>
                     <h3 className='mb-4'>{title}</h3>
                     <p>{description}</p>
-                    <a href="#" className='link-success'>Learn More</a>
+                    <a onClick={()=>nav(link)} className='link-success cursor-pointer'>Learn More</a>
                 </div>
             </div>
         </div>

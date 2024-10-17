@@ -60,17 +60,17 @@ const Navbar = ({ setState, display }) => {
                 <div className="container">
                     <a className="navbar-brand cursor-pointer" onClick={()=>nav('/')}>
                         <img src={logo} alt="Logo" width="30" height="30" className="d-inline-block align-text-top bg-light rounded-pill me-2 cursor-pointer" />
-                        EcoByte's</a>
+                        EcoByte</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
-                                <a className="nav-link active cursor-pointer" aria-current="page" href='/'>Home</a>
+                                <a className="nav-link active cursor-pointer" aria-current="page" onClick={()=>nav('/')}>Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#desc">Description</a>
+                                <a className="nav-link" href="#desc">About Us</a>
                             </li>
                             <li className="nav-item dropdown me-3
                             ">
@@ -78,7 +78,7 @@ const Navbar = ({ setState, display }) => {
                                     Feature
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#recipe">Recipe's</a></li>
+                                    <li><a className="dropdown-item cursor-pointer" onClick={()=>nav('/recipe')}>Recipe's</a></li>
                                     <li><a className="dropdown-item cursor-pointer" onClick={() => nav('/contact')}>Contact</a></li>
                                     <li><a className="dropdown-item cursor-pointer" onClick={() => nav('/calculator')}>Nutrition Calculator</a></li>
                                 </ul>

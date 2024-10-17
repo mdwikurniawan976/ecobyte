@@ -6,7 +6,8 @@ import '../utility/bootstrap/js/bootstrap.bundle.min.js';
 import Navbar from '../components/Navbar';
 import { FoodData } from '../utility/FoodData';
 import Footer from '../components/Footer';
-import { Carousel, InputNumber } from 'antd';
+import { Card, Carousel, InputNumber, } from 'antd';
+import CommentSection from '../components/CommentComponents.jsx';
 
 const RecipePage = () => {
   const { id } = useParams();
@@ -27,7 +28,7 @@ const RecipePage = () => {
       setRecipe(foundRecipe);
       console.log(foundRecipe);
 
-      
+
 
 
       console.log(recipe.image)
@@ -52,52 +53,20 @@ const RecipePage = () => {
             <li className="breadcrumb-item active" aria-current="page">{recipe ? (recipe.name.length > 20 ? `${recipe.name.slice(0, 20)}...` : recipe.name) : ''}</li>
           </ol>
         </nav>
-        <div className="row d-flex justify-content-between">
+        <div className="row d-flex justify-content-between align-items-stretch">
           <div className="col-sm-12 col-md-6">
             <Carousel arrows autoplay style={{ height: '20rem' }}>
               {recipe && recipe.image && recipe.image.map((url, index) => (
                 <div key={index}>
                   <img src={url} className="img-fluid"
                     alt="Recipe Image"
-                    style={{ objectFit: 'cover', height: '20rem', width: '100%' }}  />
+                    style={{ objectFit: 'cover', height: '20rem', width: '100%' }} />
                 </div>
               ))}
 
             </Carousel>
 
-            {/* <Carousel arrows autoplay style={{ height: '20rem' }}>
-              {recipe && recipe.images && recipe.images.map((url, index) => (
-                <div key={index}>
-                  <img src={`./images/recipe/friedRice1.jpg`} className="d-block w-100" alt={`Recipe Image ${index}`} />
-                </div>
-              ))}
 
-              <img src="/images/recipe/friedRice1.jpg" className="d-block position-relative img-fluid" alt="..." style={{objectFit: 'cover', maxHeight: '10rem'}}/>
-            </Carousel> */}
-
-            {/* <div id="carouselExampleIndicators" className="carousel slide">
-              <div className="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              </div>
-              <div className="carousel-inner">
-                
-                
-                {recipe && recipe.images && recipe.images.map((url, index) => (
-                <div className='carousel-item' key={index}>
-                  <img src={`${process.env.PUBLIC_URL}${img}`} className="d-block w-100" alt={`Recipe Image ${index}`} />
-                </div>
-              ))}
-              </div>
-              <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-              </button>
-              <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-              </button>
-            </div> */}
           </div>
           <div className="col-sm-12 col-md-6 border px-3 py-2 rounded-4 shadow-sm bg-light-subtle">
             <div className="px-3">
@@ -172,6 +141,9 @@ const RecipePage = () => {
               )}
 
 
+            </div>
+            <div className='border rounded-4 py-3 px-5 shadow-sm bg-light-subtle mt-3'>
+              <CommentSection />
             </div>
           </div>
         </div>

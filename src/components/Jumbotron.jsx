@@ -28,17 +28,17 @@ const Jumbotron = ({ setState }) => {
                 <div className="container">
                     <a className="navbar-brand" href="/">
                         <img src="./favicon.ico" alt="Logo" width="40" height="40" className="d-inline-block align-text-top  rounded-pill me-2" />
-                        EcoByte's</a>
+                        EcoByte</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse alig-self-center" id="navbarNavDropdown">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
-                                <a className="nav-link active cursor-pointer" aria-current="page" href='/'>Home</a>
+                                <a className="nav-link active cursor-pointer" aria-current="page" onClick={()=>nav('/')}>Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#desc">Description</a>
+                                <a className="nav-link" href="#desc">About Us</a>
                             </li>
                             <li className="nav-item dropdown me-3
                             ">
@@ -46,7 +46,7 @@ const Jumbotron = ({ setState }) => {
                                     Feature
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#recipe">Recipe's</a></li>
+                                    <li><a className="dropdown-item cursor-pointer" onClick={()=>nav('/recipe')}>Recipe's</a></li>
                                     <li><a className="dropdown-item cursor-pointer" onClick={() => nav('/contact')}>Contact</a></li>
                                     <li><a className="dropdown-item cursor-pointer" onClick={() => nav('/calculator')}>Nutrition Calculator</a></li>
                                 </ul>
@@ -79,7 +79,7 @@ const Jumbotron = ({ setState }) => {
                     Ecobyte: where flavor meets eco-friendly innovation for a tastier food.
                 </h3>
                 <p className='lead'>Discover Delicious Recipes That Are Good for You and the Planet</p>
-                <button className="btn btn-success rounded-5 mt-3">Get started</button>
+                <button className="btn btn-success rounded-5 mt-3" onClick={()=>nav('/recipe')}>Get started</button>
             </div>
             <div className="shadow"></div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

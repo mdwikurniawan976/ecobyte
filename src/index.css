@@ -189,4 +189,6 @@ asparagus green #8DA650
   color: #000; /* Maintain text color */
 }
 
-
+.align-items-stretch {
+  align-items: stretch;
+}

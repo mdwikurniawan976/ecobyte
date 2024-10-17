@@ -34,6 +34,7 @@ const Dashboard = () => {
   const location = useLocation();
 
   useEffect(() => {
+    window.scrollTo(0,0)
     AOS.init({
       // once: true,
     });
@@ -50,13 +51,14 @@ const Dashboard = () => {
       <About1 />
       <Konten2 />
 
-      <Konten3 subtitle={"EcoByte's"} title={"Share Your Creative Leftover Recipes "} description={"Leverage the power of social media to inspire others by sharing your innovative recipes made from leftover ingredients. Encourage users to showcase how they transform food scraps into delicious, eco-friendly meals. Strengthen our community’s commitment to reducing food waste through engaging, user-driven content."} imgSrc={imageContent2} imgUrl={" https://www.pexels.com/photo/top-view-of-food-1640772/"} />
+      <Konten3 subtitle={"EcoByte's"} title={"Share Your Creative Leftover Recipes "} description={"Leverage the power of social media to inspire others by sharing your innovative recipes made from leftover ingredients. Encourage users to showcase how they transform food scraps into delicious, eco-friendly meals. Strengthen our community’s commitment to reducing food waste through engaging, user-driven content."} imgSrc={imageContent2} imgUrl={" https://www.pexels.com/photo/top-view-of-food-1640772/"} 
+      link="/recipe/create"/>
 
-      <Konten4 subtitle={"EcoByte's"} title={"Track Your Nutritional Impact"} description={"Whether you’re exploring new ways to cook with leftovers or using our nutrition calculator to balance your diet, our platform helps you track the nutritional value of your meals and make informed decisions. Enhance your cooking skills and nutritional knowledge through meaningful, eco-conscious activities."} imgSrc={imageContent3} imgUrl={"https://www.pexels.com/photo/delicious-grilled-seafood-and-vegetables-platter-28559509/"} />
+      <Konten4 subtitle={"EcoByte's"} title={"Track Your Nutritional Impact"} description={"Whether you’re exploring new ways to cook with leftovers or using our nutrition calculator to balance your diet, our platform helps you track the nutritional value of your meals and make informed decisions. Enhance your cooking skills and nutritional knowledge through meaningful, eco-conscious activities."} imgSrc={imageContent3} imgUrl={"https://www.pexels.com/photo/delicious-grilled-seafood-and-vegetables-platter-28559509/"} link="/calculator"/>
 
       <Laman />
 
-      <Konten3 subtitle={"EcoByte's"} title={"Discover New Leftover Ingredient Recipes "} description={"Explore innovative recipes that turn leftover ingredients into delicious meals. Share your own creations and find inspiration from others on how to make the most out of your kitchen scraps. This feature helps promote sustainable cooking practices and encourages users to embrace eco-friendly eating habits."} imgSrc={imageContent4} imgUrl={"https://www.instagram.com/p/C6L9Pn4ih-i/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="} />
+      <Konten3 subtitle={"EcoByte's"} title={"Discover New Leftover Ingredient Recipes "} description={"Explore innovative recipes that turn leftover ingredients into delicious meals. Share your own creations and find inspiration from others on how to make the most out of your kitchen scraps. This feature helps promote sustainable cooking practices and encourages users to embrace eco-friendly eating habits."} imgSrc={imageContent4} imgUrl={"https://www.instagram.com/p/C6L9Pn4ih-i/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="} link="/recipe"/>
 
       {/* <Testfood /> */}
 
